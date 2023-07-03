@@ -1,6 +1,6 @@
 # 言語距離感覚ゲーム - Word２Vec
 
-gif
+![readme](https://github.com/RealideaInc/python_word2vec_game/assets/69300459/7456f44a-6387-4700-89ed-78573e54c2d6)
 
 ## 概要
 
