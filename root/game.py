@@ -102,7 +102,7 @@ n: 選び直す
 
 if __name__=='__main__':
     print('読み込み中…')
-    model_dir = '../entity_vectorentity_vector.model.bin'
+    model_dir = '../entity_vector/entity_vector.model.bin'
     model = KeyedVectors.load_word2vec_format(model_dir, binary=True)
 
     while(1):
