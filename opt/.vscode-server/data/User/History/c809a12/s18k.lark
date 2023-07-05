@@ -1,4 +1,0 @@
-expr  : term [ "+" expr ]
-term  : factor [ "*" term ]
-factor : number | "(" expr ")"
-number : /*/
