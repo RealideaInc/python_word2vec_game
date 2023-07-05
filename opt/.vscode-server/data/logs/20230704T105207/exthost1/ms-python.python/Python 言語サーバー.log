@@ -1,0 +1,88 @@
+2023-07-04 10:55:51.435 [info] [Info  - 10:55:51] (2872) Pylance language server 2023.6.40 (pyright 3f84540e) starting
+2023-07-04 10:55:51.436 [info] [Info  - 10:55:51] (2872) Server root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.6.40/dist
+2023-07-04 10:55:51.436 [info] [Info  - 10:55:51] (2872) Starting service instance "root"
+2023-07-04 10:55:51.470 [info] [Info  - 10:55:51] (2872) Setting pythonPath for service "root": "/usr/bin/python3"
+2023-07-04 10:55:51.487 [info] [Warn  - 10:55:51] (2872) stubPath /root/typings is not a valid directory.
+2023-07-04 10:55:51.503 [info] [Info  - 10:55:51] (2872) Assuming Python version 3.11
+2023-07-04 10:55:52.434 [info] [Info  - 10:55:52] (2872) Found 1 source file
+2023-07-04 10:55:52.466 [info] [Info  - 10:55:52] (2872) Background analysis(1) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.6.40/dist
+2023-07-04 10:55:52.467 [info] [Info  - 10:55:52] (2872) Background analysis(1) started
+2023-07-04 10:55:53.354 [info] [Info  - 10:55:53] (2872) Indexer background runner(2) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.6.40/dist (index)
+2023-07-04 10:55:53.355 [info] [Info  - 10:55:53] (2872) Indexing(2) started
+2023-07-04 10:55:55.640 [info] [Info  - 10:55:55] (2872) [IDX(2)] Long operation: scan packages /root (2829ms)
+2023-07-04 10:55:55.642 [info] [Info  - 10:55:55] (2872) scanned(2) 14 files over 1 exec env
+2023-07-04 10:55:55.818 [info] [Info  - 10:55:55] (2872) indexed(2) 1 files over 1 exec env
+2023-07-04 10:55:55.819 [info] [Info  - 10:55:55] (2872) Indexing finished(2).
+2023-07-04 11:56:41.297 [info] [Info  - 11:56:41] (2872) Found 2 source files
+2023-07-04 11:57:47.633 [info] [Info  - 11:57:47] (2872) Setting pythonPath for service "root": "/bin/python3"
+2023-07-04 11:57:47.645 [info] [Warn  - 11:57:47] (2872) stubPath /root/typings is not a valid directory.
+2023-07-04 11:57:47.664 [info] [Info  - 11:57:47] (2872) Assuming Python version 3.11
+2023-07-04 11:57:48.302 [info] [Info  - 11:57:48] (2872) Found 2 source files
+2023-07-04 11:57:48.618 [info] [Info  - 11:57:48] (2872) Indexer background runner(3) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.6.40/dist (index)
+2023-07-04 11:57:48.619 [info] [Info  - 11:57:48] (2872) Indexing(3) started
+2023-07-04 11:57:49.647 [info] [Info  - 11:57:49] (2872) scanned(3) 14 files over 1 exec env
+2023-07-04 11:57:49.710 [info] [Info  - 11:57:49] (2872) indexed(3) 1 files over 1 exec env
+2023-07-04 11:57:49.711 [info] [Info  - 11:57:49] (2872) Indexing finished(3).
+2023-07-04 11:58:26.781 [info] [Info  - 11:58:26] (2872) Setting pythonPath for service "root": "/usr/local/bin/python"
+2023-07-04 11:58:26.786 [info] [Warn  - 11:58:26] (2872) stubPath /root/typings is not a valid directory.
+2023-07-04 11:58:26.812 [info] [Info  - 11:58:26] (2872) Assuming Python version 3.11
+2023-07-04 11:58:27.593 [info] [Info  - 11:58:27] (2872) Found 2 source files
+2023-07-04 11:58:28.565 [info] [Info  - 11:58:28] (2872) Indexer background runner(4) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.6.40/dist (index)
+2023-07-04 11:58:28.567 [info] [Info  - 11:58:28] (2872) Indexing(4) started
+2023-07-04 11:58:28.807 [info] [Info  - 11:58:28] (2872) scanned(4) 41 files over 1 exec env
+2023-07-04 11:58:33.029 [info] [Info  - 11:58:33] (2872) [IDX(4)] Long operation: index execution environment /root (4169ms)
+2023-07-04 11:58:33.068 [info] [Info  - 11:58:33] (2872) [IDX(4)] Long operation: index packages /root (4230ms)
+2023-07-04 11:58:33.069 [info] [Info  - 11:58:33] (2872) indexed(4) 26 files over 1 exec env
+2023-07-04 11:58:33.072 [info] [Info  - 11:58:33] (2872) Indexing finished(4).
+2023-07-04 12:04:49.752 [info] [Info  - 12:04:49] (2872) [BG(1)] Long operation: getSemanticTokens full at /usr/local/lib/python3.11/site-packages/gensim/models/keyedvectors.py (81476ms)
+2023-07-04 12:05:46.018 [info] [Info  - 12:05:46] (2872) [BG(1)] Long operation: checking: /usr/local/lib/python3.11/site-packages/gensim/models/keyedvectors.py (55472ms)
+2023-07-04 12:05:46.020 [info] [Info  - 12:05:46] (2872) [BG(1)] Long operation: analyzing: /usr/local/lib/python3.11/site-packages/gensim/models/keyedvectors.py (55472ms)
+2023-07-04 12:06:00.552 [info] [Info  - 12:06:00] (45543) Pylance language server 2023.6.40 (pyright 3f84540e) starting
+2023-07-04 12:06:00.553 [info] [Info  - 12:06:00] (45543) Server root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.6.40/dist
+2023-07-04 12:06:00.559 [info] [Info  - 12:06:00] (45543) Starting service instance "root"
+2023-07-04 12:06:00.592 [info] [Info  - 12:06:00] (45543) Setting pythonPath for service "root": "/usr/local/bin/python"
+2023-07-04 12:06:00.597 [info] [Warn  - 12:06:00] (45543) stubPath /root/typings is not a valid directory.
+2023-07-04 12:06:00.620 [info] [Info  - 12:06:00] (45543) Assuming Python version 3.11
+2023-07-04 12:06:01.267 [info] [Info  - 12:06:01] (45543) Found 2 source files
+2023-07-04 12:06:01.291 [info] [Info  - 12:06:01] (45543) Background analysis(1) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.6.40/dist
+2023-07-04 12:06:01.292 [info] [Info  - 12:06:01] (45543) Background analysis(1) started
+2023-07-04 12:06:01.566 [info] [Info  - 12:06:01] (45543) Indexer background runner(2) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.6.40/dist (index)
+2023-07-04 12:06:01.567 [info] [Info  - 12:06:01] (45543) Indexing(2) started
+2023-07-04 12:06:04.451 [info] [Info  - 12:06:04] (45543) [IDX(2)] Long operation: scan packages /root (2890ms)
+2023-07-04 12:06:04.452 [info] [Info  - 12:06:04] (45543) scanned(2) 41 files over 1 exec env
+2023-07-04 12:06:04.551 [info] [Info  - 12:06:04] (45543) indexed(2) 26 files over 1 exec env
+2023-07-04 12:06:04.554 [info] [Info  - 12:06:04] (45543) Indexing finished(2).
+2023-07-04 12:06:13.579 [info] [Info  - 12:06:13] (45752) Pylance language server 2023.6.40 (pyright 3f84540e) starting
+2023-07-04 12:06:13.580 [info] [Info  - 12:06:13] (45752) Server root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.6.40/dist
+2023-07-04 12:06:13.584 [info] [Info  - 12:06:13] (45752) Starting service instance "root"
+2023-07-04 12:06:13.606 [info] [Info  - 12:06:13] (45752) Setting pythonPath for service "root": "/usr/local/bin/python"
+2023-07-04 12:06:13.611 [info] [Warn  - 12:06:13] (45752) stubPath /root/typings is not a valid directory.
+2023-07-04 12:06:13.632 [info] [Info  - 12:06:13] (45752) Assuming Python version 3.11
+2023-07-04 12:06:14.413 [info] [Info  - 12:06:14] (45752) Found 2 source files
+2023-07-04 12:06:14.452 [info] [Info  - 12:06:14] (45752) Background analysis(1) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.6.40/dist
+2023-07-04 12:06:14.453 [info] [Info  - 12:06:14] (45752) Background analysis(1) started
+2023-07-04 12:06:15.334 [info] [Info  - 12:06:15] (45752) Indexer background runner(2) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.6.40/dist (index)
+2023-07-04 12:06:15.336 [info] [Info  - 12:06:15] (45752) Indexing(2) started
+2023-07-04 12:06:17.010 [info] [Info  - 12:06:17] (45752) [IDX(2)] Long operation: scan packages /root (2201ms)
+2023-07-04 12:06:17.011 [info] [Info  - 12:06:17] (45752) scanned(2) 41 files over 1 exec env
+2023-07-04 12:06:17.074 [info] [Info  - 12:06:17] (45752) indexed(2) 26 files over 1 exec env
+2023-07-04 12:06:17.077 [info] [Info  - 12:06:17] (45752) Indexing finished(2).
+2023-07-04 12:11:01.232 [info] [Info  - 12:11:01] (45752) [BG(1)] Long operation: getSemanticTokens full at /usr/local/lib/python3.11/site-packages/gensim/models/keyedvectors.py (81020ms)
+2023-07-04 12:11:19.338 [info] [Info  - 12:11:19] (45752) [BG(1)] Long operation: checking: /usr/local/lib/python3.11/site-packages/gensim/models/keyedvectors.py (15142ms)
+2023-07-04 12:11:19.340 [info] [Info  - 12:11:19] (45752) [BG(1)] Long operation: analyzing: /usr/local/lib/python3.11/site-packages/gensim/models/keyedvectors.py (15142ms)
+2023-07-04 12:11:26.827 [info] [Info  - 12:11:26] (45752) [BG(1)] Long operation: checking: /usr/local/lib/python3.11/site-packages/gensim/models/keyedvectors.py (6953ms)
+2023-07-04 12:11:26.857 [info] [Info  - 12:11:26] (45752) [BG(1)] Long operation: analyzing: /usr/local/lib/python3.11/site-packages/gensim/models/keyedvectors.py (6953ms)
+2023-07-04 12:52:44.225 [info] [Info  - 12:52:44] (45752) Indexer background runner(3) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.6.40/dist (refresh)
+2023-07-04 12:52:44.226 [info] [Info  - 12:52:44] (45752) Indexing(3) started
+2023-07-04 12:52:45.993 [info] [Info  - 12:52:45] (45752) [IDX(3)] Long operation: scan packages /root (2259ms)
+2023-07-04 12:52:45.994 [info] [Info  - 12:52:45] (45752) scanned(3) 42 files over 1 exec env
+2023-07-04 12:52:46.256 [info] [Info  - 12:52:46] (45752) indexed(3) 27 files over 1 exec env
+2023-07-04 12:52:46.260 [info] [Info  - 12:52:46] (45752) Indexing finished(3).
+2023-07-04 12:54:08.886 [info] [Info  - 12:54:08] (45752) [BG(1)] Long operation: checking: /usr/local/lib/python3.11/site-packages/gensim/models/keyedvectors.py (82638ms)
+2023-07-04 12:54:08.888 [info] [Info  - 12:54:08] (45752) [BG(1)] Long operation: analyzing: /usr/local/lib/python3.11/site-packages/gensim/models/keyedvectors.py (82638ms)
+2023-07-04 12:54:51.331 [info] [Info  - 12:54:51] (45752) Found 3 source files
+2023-07-04 12:55:08.169 [info] [Info  - 12:55:08] (45752) [BG(1)] Long operation: checking: /usr/local/lib/python3.11/site-packages/gensim/models/keyedvectors.py (15513ms)
+2023-07-04 12:55:08.171 [info] [Info  - 12:55:08] (45752) [BG(1)] Long operation: analyzing: /usr/local/lib/python3.11/site-packages/gensim/models/keyedvectors.py (15513ms)
+2023-07-04 13:35:02.823 [info] [Info  - 13:35:02] (45752) Found 2 source files
+2023-07-04 15:20:31.100 [info] [Info  - 15:20:31] (45752) [BG(1)] Long operation: getSemanticTokens full at /usr/local/lib/python3.11/site-packages/gensim/models/keyedvectors.py (54005ms)
+2023-07-04 16:50:16.290 [info] [Info  - 16:50:16] (45752) Found 3 source files

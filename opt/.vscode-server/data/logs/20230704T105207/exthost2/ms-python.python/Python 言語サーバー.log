@@ -1,0 +1,16 @@
+2023-07-05 09:12:13.870 [info] [Info  - 9:12:13] (70465) Pylance language server 2023.6.40 (pyright 3f84540e) starting
+2023-07-05 09:12:13.872 [info] [Info  - 9:12:13] (70465) Server root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.6.40/dist
+2023-07-05 09:12:13.879 [info] [Info  - 9:12:13] (70465) Starting service instance "root"
+2023-07-05 09:12:13.941 [info] [Info  - 9:12:13] (70465) Setting pythonPath for service "root": "/usr/local/bin/python"
+2023-07-05 09:12:13.948 [info] [Warn  - 9:12:13] (70465) stubPath /root/typings is not a valid directory.
+2023-07-05 09:12:14.042 [info] [Info  - 9:12:14] (70465) Assuming Python version 3.11
+2023-07-05 09:12:15.042 [info] [Info  - 9:12:15] (70465) Found 3 source files
+2023-07-05 09:12:15.066 [info] [Info  - 9:12:15] (70465) Background analysis(1) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.6.40/dist
+2023-07-05 09:12:15.068 [info] [Info  - 9:12:15] (70465) Background analysis(1) started
+2023-07-05 09:12:16.102 [info] [Info  - 9:12:16] (70465) Indexer background runner(2) root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.6.40/dist (index)
+2023-07-05 09:12:16.113 [info] [Info  - 9:12:16] (70465) Indexing(2) started
+2023-07-05 09:12:18.408 [info] [Info  - 9:12:18] (70465) [BG(1)] Long operation: analyzing: /root/game.py (2314ms)
+2023-07-05 09:12:19.886 [info] [Info  - 9:12:19] (70465) [IDX(2)] Long operation: scan packages /root (4462ms)
+2023-07-05 09:12:19.888 [info] [Info  - 9:12:19] (70465) scanned(2) 42 files over 1 exec env
+2023-07-05 09:12:19.977 [info] [Info  - 9:12:19] (70465) indexed(2) 27 files over 1 exec env
+2023-07-05 09:12:19.981 [info] [Info  - 9:12:19] (70465) Indexing finished(2).

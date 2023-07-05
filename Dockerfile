@@ -12,10 +12,15 @@ ENV TERM xterm
 
 RUN apt-get install -y vim less
 
-RUN wget http://www.cl.ecei.tohoku.ac.jp/~m-suzuki/jawiki_vector/data/20170201.tar.bz2
-RUN tar jxvf 20170201.tar.bz2
-RUN rm -rf /entity_vector/entity_vector.model.txt
+RUN wget -P /root https://github.com/singletongue/WikiEntVec/releases/download/20190520/jawiki.entity_vectors.100d.txt.bz2
+RUN bunzip2 /root/jawiki.entity_vectors.100d.txt.bz2
 
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 RUN python -m pip install gensim
+
+COPY save.py /root
+
+RUN python /root/save.py
+
+RUN rm /root/jawiki.entity_vectors.100d.txt

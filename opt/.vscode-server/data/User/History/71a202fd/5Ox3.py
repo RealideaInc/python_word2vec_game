@@ -1,0 +1,34 @@
+from gensim.models import KeyedVectors
+from pprint import pprint
+
+model_dir = '../entity_vector/entity_vector.model.bin'
+model: KeyedVectors = KeyedVectors.load_word2vec_format(model_dir, binary=True)
+
+
+def parsing(formula: str):
+    pos = []
+    neg = []
+    formula = formula.replace('＋', '+')
+    formula = formula.replace('ー', '-')
+    formula = formula.split('+')
+    formula = list(map(lambda x: x.split('-'), formula))
+    for x in formula:
+        if len(x) == 1:
+            pos += x
+        else:
+            pos += x[0:1]
+            neg += x[1:]
+    return pos, neg
+
+while True:
+    formula = input('式を入力\n')
+    pos, neg = parsing(formula)
+    try:
+        pprint(model.most_similar(positive=pos, negative=neg))
+    except KeyError as e:
+        print('そんな単語は私は知りません：', e)
+    else:
+        print('finish (no error)')
+    finally:
+        print('all finish')
+
